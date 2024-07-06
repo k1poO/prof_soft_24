@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FirstActivity">
+
+    <TextView
+        android:id="@+id/tv_hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="Hello World!"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_activity_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="296dp"
+        android:height="49dp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_bg"
+        android:text="@string/activity_2"
+        android:textSize="20sp" />
+
+</LinearLayout>
