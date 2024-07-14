@@ -16,9 +16,10 @@ class MainActivity : AppCompatActivity() {
         _binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnBack.setOnClickListener {
-            Toast.makeText(this, "Open previous page...", Toast.LENGTH_LONG).show()
+        binding.toolbar.setNavigationOnClickListener {
+            Toast.makeText(this, "Launch previous screen...", Toast.LENGTH_LONG).show()
         }
+
         binding.btnChangeProfile.setOnClickListener {
             Toast.makeText(this, "Open edit profile page...", Toast.LENGTH_LONG).show()
         }
