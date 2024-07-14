@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ProfSoft_lesson2</string>
+    <string name="desc_for_avatar">Image view avatar</string>
+    <string name="about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="profile_name">Иван</string>
+    <string name="profile_surname">Иванович</string>
+    <string name="profile_patronymic">Иванов</string>
+    <string name="date_of_birthday">Дата рождения:</string>
+    <string name="date">01.01.2001</string>
+    <string name="profile_city_title">Город</string>
+    <string name="saratov">Саратов</string>
+    <string name="profile_about_me_title">О себе</string>
+    <string name="change_profile">Редактировать профиль</string>
+    <string name="profile">Профиль</string>
+    <string name="picture_of_a_squirrel">Picture of a squirrel</string>
+</resources>
