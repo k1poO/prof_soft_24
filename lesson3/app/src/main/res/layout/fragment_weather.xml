@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main_screen.WeatherFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_start"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <Toolbar
+        android:id="@+id/toolbar_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="@string/weather"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_city"
+        style="@style/weather_city_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/gl_start"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_weather"
+        tools:text="City" />
+
+    <TextView
+        android:id="@+id/tv_current_temp"
+        style="@style/weather_other_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@id/gl_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_city"
+        tools:text="current temp" />
+
+    <TextView
+        android:id="@+id/tv_feels_temp"
+        style="@style/weather_other_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/gl_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_current_temp"
+        tools:text="Feels like: " />
+
+    <TextView
+        android:id="@+id/tv_min_max_temp"
+        style="@style/weather_other_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@id/gl_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_feels_temp"
+        tools:text="min temp, max temp" />
+
+    <TextView
+        android:id="@+id/tv_pressure"
+        style="@style/weather_other_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/gl_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_min_max_temp"
+        tools:text="Pressure" />
+
+    <TextView
+        android:id="@+id/tv_humidity"
+        style="@style/weather_other_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/gl_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_pressure"
+        tools:text="Humidity" />
+
+    <TextView
+        android:id="@+id/tv_visibility"
+        style="@style/weather_other_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/gl_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_humidity"
+        tools:text="Visibility" />
+
+    <TextView
+        android:id="@+id/tv_wind_speed"
+        style="@style/weather_other_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@id/gl_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_visibility"
+        tools:text="Wind speed" />
+
+    <TextView
+        android:id="@+id/tv_wind_gust"
+        style="@style/weather_other_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/gl_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_wind_speed"
+        tools:text="Wind gust" />
+
+    <TextView
+        android:id="@+id/tv_wind_direction"
+        style="@style/weather_other_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/gl_start"
+        app:layout_constraintTop_toBottomOf="@id/tv_wind_gust"
+        tools:text="Wind direction" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
