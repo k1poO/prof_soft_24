@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">profsoft_lesson3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="min_max_temp">min: %1s, max: %2s</string>
+    <string name="feels_like_temp">Feels like %1s, %2s.</string>
+    <string name="weather_pressure">pressure: %1s hPa</string>
+    <string name="weather_humidity">humidity: %1$d%%</string>
+    <string name="weather_visibility">visibility: %1$.1f km&quot;</string>
+    <string name="weather_wind_speed">wind speed: %1s m/s</string>
+    <string name="weather_wind_gust">gust: %1s m/s</string>
+    <string name="weather_wind_direction">direction: %1s</string>
+    <string name="weather">Погода</string>
+</resources>
