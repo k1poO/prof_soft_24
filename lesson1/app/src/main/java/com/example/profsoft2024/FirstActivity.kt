@@ -15,7 +15,7 @@ class FirstActivity : AppCompatActivity() {
         _binding = ActivityFirstBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnActivity2.setOnClickListener {
+        binding.buttonActivity2.setOnClickListener {
             startActivity(SecondActivity.newIntent(this, NOTIFICATION_TEXT))
         }
     }

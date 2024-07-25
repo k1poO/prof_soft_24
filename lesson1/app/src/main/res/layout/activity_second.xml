@@ -10,26 +10,26 @@
     tools:context=".SecondActivity">
 
     <ImageView
-        android:id="@+id/iv_red_rect"
+        android:id="@+id/image_view_red_rect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="50dp"
-        android:src="@drawable/shape_red_rect"
-        android:contentDescription="@string/todo" />
+        android:contentDescription="@string/todo"
+        android:src="@drawable/shape_red_rect" />
 
     <ImageView
-        android:id="@+id/iv_squirrel"
+        android:id="@+id/image_view_squirrel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="16dp"
-        android:src="@drawable/img_squirrel"
-        android:contentDescription="@string/todo" />
+        android:contentDescription="@string/todo"
+        android:src="@drawable/img_squirrel" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_notification"
+        android:id="@+id/button_notification"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

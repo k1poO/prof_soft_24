@@ -20,7 +20,7 @@ class SecondActivity : AppCompatActivity() {
 
         val text = intent.getStringExtra(EXTRA_KEY)
 
-        binding.btnNotification.setOnClickListener {
+        binding.buttonNotification.setOnClickListener {
             Toast.makeText(this, text, Toast.LENGTH_LONG).show()
         }
     }
