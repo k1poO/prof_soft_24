@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Launch previous screen...", Toast.LENGTH_LONG).show()
         }
 
-        binding.btnChangeProfile.setOnClickListener {
+        binding.buttonChangeProfile.setOnClickListener {
             Toast.makeText(this, "Open edit profile page...", Toast.LENGTH_LONG).show()
         }
     }
