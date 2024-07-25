@@ -33,7 +33,7 @@ class WeatherViewModel(application: Application) : AndroidViewModel(application)
         getWeatherInfo()
     }
 
-    fun getWeatherInfo() {
+    private fun getWeatherInfo() {
         coroutineScope.launch {
             try {
                 val weatherData = withContext(Dispatchers.IO) {

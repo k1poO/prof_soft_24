@@ -47,20 +47,25 @@ class WeatherFragment : Fragment() {
 
     private fun updateUI(weather: WeatherVO) {
         with(binding) {
-            tvCity.text = weather.city
-            tvCurrentTemp.text = weather.temp
-            tvFeelsTemp.text = getString(
+            textViewCity.text = weather.city
+            textViewCurrentTemp.text = weather.temp
+            textViewFeelsTemp.text = getString(
                 R.string.feels_like_temp,
                 weather.tempFeelsLike,
                 weather.weatherDesc
             )
-            tvMinMaxTemp.text = getString(R.string.min_max_temp, weather.minTemp, weather.maxTemp)
-            tvPressure.text = getString(R.string.weather_pressure, weather.pressure.toString())
-            tvHumidity.text = getString(R.string.weather_humidity, weather.humidity)
-            tvVisibility.text = getString(R.string.weather_visibility, weather.visibility)
-            tvWindSpeed.text = getString(R.string.weather_wind_speed, weather.windSpeed.toString())
-            tvWindGust.text = getString(R.string.weather_wind_gust, weather.windGust.toString())
-            tvWindDirection.text = getString(R.string.weather_wind_direction, weather.windDirection)
+            textViewMinMaxTemp.text =
+                getString(R.string.min_max_temp, weather.minTemp, weather.maxTemp)
+            textViewPressure.text =
+                getString(R.string.weather_pressure, weather.pressure.toString())
+            textViewHumidity.text = getString(R.string.weather_humidity, weather.humidity)
+            textViewVisibility.text = getString(R.string.weather_visibility, weather.visibility)
+            textViewWindSpeed.text =
+                getString(R.string.weather_wind_speed, weather.windSpeed.toString())
+            textViewWindGust.text =
+                getString(R.string.weather_wind_gust, weather.windGust.toString())
+            textViewWindDirection.text =
+                getString(R.string.weather_wind_direction, weather.windDirection)
         }
     }
 
