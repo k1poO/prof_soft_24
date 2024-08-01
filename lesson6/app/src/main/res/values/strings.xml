@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lesson6</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="activity_two">Активити 2</string>
+    <string name="notification">Уведомление</string>
+    <string name="squirrel_content_desc">Белка</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+</resources>
