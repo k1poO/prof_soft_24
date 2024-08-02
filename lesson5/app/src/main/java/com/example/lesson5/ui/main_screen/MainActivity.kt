@@ -3,6 +3,7 @@ package com.example.lesson5.ui.main_screen
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
+import com.example.lesson5.R
 import com.example.lesson5.databinding.ActivityMainBinding
 import com.example.lesson5.domain.models.Item
 import com.example.lesson5.ui.extension.toPx
@@ -76,18 +77,13 @@ class MainActivity : AppCompatActivity() {
                 setPadding(12.toPx(), 0, 12.toPx(), 0)
             }
         }
+
         TabLayoutMediator(
             binding.tabLayoutMainScreen,
             binding.viewPagerMainScreen
         ) { tab, position ->
-            when (position) {
-                0 -> tab.text = "item 1"
-                1 -> tab.text = "item 2"
-                2 -> tab.text = "item 3"
-                3 -> tab.text = "item 4"
-            }
+            tab.setCustomView(R.layout.tab_dot)
         }.attach()
-        binding.springDotsIndicatorMainScreen.setViewPager2(binding.viewPagerMainScreen)
     }
 
     private fun generateItem(size: Int): Item {

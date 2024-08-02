@@ -51,12 +51,6 @@
         app:layout_constraintStart_toStartOf="@id/guide_line_start"
         app:layout_constraintTop_toBottomOf="@id/recycler_view_main_screen" />
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tab_layout_main_screen"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/button_add_item" />
-
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/view_pager_main_screen"
         android:layout_width="wrap_content"
@@ -64,24 +58,20 @@
         android:layout_marginTop="22dp"
         app:layout_constraintEnd_toStartOf="@id/guide_line_end"
         app:layout_constraintStart_toEndOf="@id/guide_line_start"
-        app:layout_constraintTop_toBottomOf="@id/tab_layout_main_screen" />
+        app:layout_constraintTop_toBottomOf="@id/button_add_item" />
 
-    <com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
-        android:id="@+id/spring_dots_indicator_main_screen"
-        android:layout_width="wrap_content"
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout_main_screen"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="12dp"
-        app:dampingRatio="0.5"
-        app:dotsColor="@color/red"
-        app:dotsCornerRadius="10dp"
-        app:dotsSize="6dp"
-        app:dotsSpacing="4dp"
-        app:dotsStrokeColor="@color/gray"
-        app:dotsStrokeWidth="2dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:background="@android:color/transparent"
         app:layout_constraintTop_toBottomOf="@id/view_pager_main_screen"
-        app:stiffness="300" />
+        app:tabGravity="center"
+        app:tabIndicatorColor="@android:color/transparent"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@android:color/transparent"
+        app:tabTextColor="@android:color/transparent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
