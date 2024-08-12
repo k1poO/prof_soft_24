@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">lesson7</string>
+
+    <string name="button_profile">Профиль</string>
+    <string name="title_main">Главная</string>
+
+    <string name="title_profile">Профиль</string>
+    <string name="date_of_birthday">Дата рождения:&#160;</string>
+    <string name="city">Город</string>
+    <string name="about_myself">О себе</string>
+    <string name="button_edit_profile">Редактировать профиль</string>
+
+    <string name="title_edit_profile">Редактирование профиля</string>
+    <string name="name">Имя:&#160;</string>
+    <string name="lastName">Фамилия:&#160;</string>
+    <string name="patronymic">Отчество:&#160;</string>
+    <string name="button_save">Сохранить</string>
+</resources>
