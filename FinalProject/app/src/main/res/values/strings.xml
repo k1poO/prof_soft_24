@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    <!--Name of screens-->
+    <string name="home_page">Главная</string>
+    <string name="favourite_page">Избранное</string>
+    <string name="chat_page">Чат</string>
+    <string name="profile_page">Профиль</string>
+    <string name="add_note">Новая заметка</string>
+
+    <!--Base texts-->
+    <!--Auth screens-->
+    <string name="login">Войти</string>
+    <string name="register">Регистрация</string>
+    <string name="login_with_number">Войти с учетной записью</string>
+
+    <string name="entrance">Вход</string>
+    <string name="please_login">Пожалуйста, войдите для продолжения</string>
+    <string name="please_enter_data">Пожалуйста, введите данные для создания новой учетной записи</string>
+
+    <string name="phone_number">Номер телефона</string>
+    <string name="password">Пароль</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+
+    <!--Main screens-->
+    <string name="your_courses">Ваши курсы</string>
+    <string name="your_notes">Ваши заметки</string>
+    <string name="community_notes">Заметки сообщества</string>
+    <string name="all">Все</string>
+
+    <string name="next_lesson">Ближайшее занятие</string>
+    <string name="passed">Пройдено</string>
+    <string name="left">Осталось</string>
+    <string name="show_chat">Показать чат</string>
+    <string name="nothing_new">Нет новых</string>
+    <string name="its_empty_now">Здесь пока пусто...</string>
+
+    <!--Favourite screens-->
+    <string name="empty">Пусто</string>
+
+    <!--Detail screens-->
+    <string name="themes">Темы</string>
+    <string name="lesson">Занятие</string>
+    <string name="comments">Комментарии</string>
+    <string name="comment">Комментарий</string>
+
+    <!--Chat screens-->
+    <string name="message">Сообщение</string>
+    <string name="admin">Админ</string>
+    <string name="student">Студент</string>
+    <string name="show_my_phone">Показывать всем мой номер</string>
+    <string name="notes">Заметки</string>
+    <string name="courses">Курсы</string>
+
+    <!--Profile screens-->
+    <string name="logout">Выйти из аккаунта</string>
+
+    <!--Add profile screens-->
+    <string name="local">Локально</string>
+    <string name="community">Сообщество</string>
+    <string name="enter_name">Введите название</string>
+    <string name="enter_text">Введите текст</string>
+    <string name="add_photo">Добавить фото</string>
+    <string name="add">Добавить</string>
+    <string name="cancel">Отмена</string>
+    <string name="what_add">Что добавить?</string>
+    <string name="text">Текст</string>
+    <string name="photo_link">Ссылка на фото</string>
+    <string name="ready">Готово</string>
+
+    <!--Error screens-->
+    <string name="oops">Ой-ой...</string>
+    <string name="something_wrong">Что-то пошло не по плану</string>
+    <string name="retry">Повторить</string>
+    <string name="oops_something_wrong">Упс, что-то пошло не так...</string>
+    <string name="try_again">Попробуйте снова</string>
+
+</resources>
